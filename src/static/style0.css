@@ -1,0 +1,10 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/back2-ondas0.jpg');
+    background-size: cover; /* Puedes ajustar esto según tus necesidades */
+    height: 100vh; /* Esto asegura que la imagen ocupe el 100% de la altura de la ventana */
+    display: flex;
+}

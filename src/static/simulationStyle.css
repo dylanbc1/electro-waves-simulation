@@ -1,0 +1,49 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card h2 {
+    color: #333333;
+}
+
+.card p {
+    color: #666666;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card_values {
+    display: flex; /* Utilizar flexbox para disposición horizontal */
+    max-width: 2000px; /* O ajusta según tus necesidades */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 240px;
+    margin-left: 20px;
+}
+
+.section_values {
+    flex: 1; /* Cada sección ocupará el mismo espacio */
+    margin-right: 20px; /* Margen entre secciones (ajusta según sea necesario) */
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 14px;
+    color: #555555;
+}
